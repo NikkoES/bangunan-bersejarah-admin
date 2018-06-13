@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Admin Bangunan Bersejarah</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home">Beranda</string>
+    <string name="prov_banten">Provinsi Banten</string>
+    <string name="prov_jakarta">Provinsi DKI Jakarta</string>
+    <string name="prov_jawabarat">Provinsi Jawa Barat</string>
+    <string name="prov_jawatengah">Provinsi Jawa Tengah</string>
+    <string name="prov_jawatimur">Provinsi Jawa Timur</string>
+    <string name="prov_yogyakarta">Provinsi DIY Yogyakarta</string>
+
+    <string name="tentang">Tentang</string>
+    <string name="tambah_bangunan">Tambah Bangunan</string>
+    <string name="pengajuan_bangunan">Pengajuan Bangunan</string>
+    <string name="keluar">Keluar</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

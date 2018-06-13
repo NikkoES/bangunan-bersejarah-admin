@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_prov_banten"
+            android:icon="@drawable/ic_banten"
+            android:title="@string/prov_banten" />
+        <item
+            android:id="@+id/nav_prov_jakarta"
+            android:icon="@drawable/ic_jakarta"
+            android:title="@string/prov_jakarta" />
+        <item
+            android:id="@+id/nav_prov_jawabarat"
+            android:icon="@drawable/ic_jawa_barat"
+            android:title="@string/prov_jawabarat" />
+        <item
+            android:id="@+id/nav_prov_jawatengah"
+            android:icon="@drawable/ic_jawa_tengah"
+            android:title="@string/prov_jawatengah" />
+        <item
+            android:id="@+id/nav_prov_jawatimur"
+            android:icon="@drawable/ic_jawa_timur"
+            android:title="@string/prov_jawatimur" />
+        <item
+            android:id="@+id/nav_prov_yogyakarta"
+            android:icon="@drawable/ic_yogyakarta"
+            android:title="@string/prov_yogyakarta" />
+    </group>
+
+    <group
+        android:id="@+id/group_other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tambah_bangunan"
+            android:title="@string/tambah_bangunan" />
+        <item
+            android:id="@+id/nav_pengajuan_bangunan"
+            android:title="@string/pengajuan_bangunan" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:title="@string/tentang" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:title="@string/keluar" />
+
+    </group>
+
+</menu>
