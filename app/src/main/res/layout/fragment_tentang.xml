@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical|center_horizontal"
-                android:text="Aplikasi Bangunan Bersejarah adalah aplikasi untuk mengetahui informasi sejarah bangunan bersejarah yang ada di Provinsi Jawa Barat.\nDalam aplikasi ini dapat dilihat berbagai macam bangunan berdasarkan provinsi dan daerahnya."
+                android:text="Aplikasi Bangunan Bersejarah adalah aplikasi untuk mengetahui informasi sejarah bangunan bersejarah yang ada di Pulau Jawa.\nDalam aplikasi ini dapat dilihat berbagai macam bangunan berdasarkan provinsi dan daerahnya."
                 android:textColor="@color/colorWhite"
                 android:textSize="18sp"
                 android:textStyle="bold"/>

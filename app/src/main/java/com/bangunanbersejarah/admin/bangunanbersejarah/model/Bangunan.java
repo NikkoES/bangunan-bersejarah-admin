@@ -16,26 +16,14 @@ public class Bangunan {
     String sejarahBangunan;
     @SerializedName("image_bangunan")
     String imageBangunan;
-    @SerializedName("alamat_bangunan")
-    String alamatBangunan;
     @SerializedName("id_provinsi")
     String idProvinsi;
     @SerializedName("id_daerah")
     String idDaerah;
-
-    public Bangunan(String idBangunan, String namaBangunan, String sejarahBangunan, String imageBangunan, String alamatBangunan, String idProvinsi, String idDaerah) {
-        this.idBangunan = idBangunan;
-        this.namaBangunan = namaBangunan;
-        this.sejarahBangunan = sejarahBangunan;
-        this.imageBangunan = imageBangunan;
-        this.alamatBangunan = alamatBangunan;
-        this.idProvinsi = idProvinsi;
-        this.idDaerah = idDaerah;
-    }
-
-    public String getAlamatBangunan() {
-        return alamatBangunan;
-    }
+    @SerializedName("tanggal_pengajuan")
+    String tanggal;
+    @SerializedName("alamat_bangunan")
+    String alamatBangunan;
 
     public String getIdBangunan() {
         return idBangunan;
@@ -59,5 +47,13 @@ public class Bangunan {
 
     public String getIdDaerah() {
         return idDaerah;
+    }
+
+    public String getTanggal() {
+        return tanggal;
+    }
+
+    public String getAlamatBangunan() {
+        return alamatBangunan;
     }
 }
